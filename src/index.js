@@ -6,7 +6,7 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { Provider } from "react-redux";
 import store from './redux/store';
-export const server = "http://localhost:3000/api/v1";
+export const server = "https://doctor-appointment-system-frontend.vercel.app/api/v1";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
